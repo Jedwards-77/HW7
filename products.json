@@ -1,0 +1,48 @@
+[{
+    "name": "Pokemon Card Pack",
+    "description": "10 Collectible Playing Cards",
+    "price": 5,
+    "categories": ["Toy", "Game"]
+},
+{
+    "name": "Football",
+    "description": "Leather Football",
+    "price": 15,
+    "categories": ["Sports", "Toy"]
+},
+{
+    "name": "Deck of Cards",
+    "description": "Standard Deck of Playing Cards",
+    "price": 2,
+    "categories": ["Game"]
+},
+{
+    "name": "Starwars Lego Set",
+    "description": "Small Buildable Starship",
+    "price": 20,
+    "categories": ["Toy"]
+},
+{
+    "name": "Monopoly",
+    "description": "Classic Monopoly Board Game",
+    "price": 15,
+    "categories": ["Game"]
+},
+{
+    "name": "Dice",
+    "description": "Two Six Sided Die",
+    "price": 2,
+    "categories": ["Game"]
+},
+{
+    "name": "Whiffle Ball Set",
+    "description": "One Whiffle Ball Bat and Two Whiffle Balls",
+    "price": 10,
+    "categories": ["Toy", "Sports"]
+},
+{
+    "name": "Checkers Set",
+    "description": "Checkers Board and Set of Red and Black Pieces",
+    "price": 15,
+    "categories": ["Game"]
+}]

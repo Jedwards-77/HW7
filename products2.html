@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product List</title>
+    <style>
+        body 
+        { font-family: Arial, sans-serif; padding: 20px; }
+        .product 
+        { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; }
+        .price 
+        { color: green; }
+        .categories 
+        { color: blue; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div id="product-list"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $.getJSON("products.json", function(info) {
+            let html = info.map(product => `
+            <div class="product">
+            <h2>${product.name}</h2>
+            <p>${product.description}</p>
+            <p class="price">Price: $${product.price}</p>
+            <p class="categories">Categories: ${product.categories.join(", ")}</p>
+            </div>`).join('');
+            document.getElementById("product-list").innerHTML = html;
+        });
+    </script>
+</body>
+</html>
